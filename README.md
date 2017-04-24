@@ -44,7 +44,7 @@ Account switching
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/Nams2/Twitter2/blob/master/Twitter2GIF.gif' title='Twitter Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/Nams2/Twitter2/blob/master/Twitter2newGIF.gif' title='Twitter Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
