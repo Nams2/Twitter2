@@ -13,20 +13,20 @@ The following required functionality is completed:
 
 Hamburger menu
 
-* [] Dragging anywhere in the view should reveal the menu.
-* [] The menu should include links to your profile, the home timeline, and the mentions view.
-* [] The menu can look similar to the menu below or feel free to take liberty with the UI.
+* [+] Dragging anywhere in the view should reveal the menu.
+* [+] The menu should include links to your profile, the home timeline, and the mentions view.
+* [+] The menu can look similar to the menu below or feel free to take liberty with the UI.
 
 Profile page
 
-* [] Contains the user header view
-* [] Contains a section with the users basic stats: # tweets, # following, # followers
-* [] Shows the user timeline
+* [+] Contains the user header view
+* [+] Contains a section with the users basic stats: # tweets, # following, # followers
+* [+] Shows the user timeline
 
 
 Home Timeline
 
-* [] Tapping on a user image should bring up that user's profile page
+* [] Tapping on a user image should bring up that user's profile page (Tried to implement but was not successful)
 
 Profile Page
 * [] Optional: Implement the paging view for the user description. (med)
@@ -44,7 +44,7 @@ Account switching
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/Nams2/Twitter/blob/master/TwitterAppGIF.gif' title='Twitter Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/Nams2/Twitter/blob/master/Twitter2GIF.gif' title='Twitter Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
