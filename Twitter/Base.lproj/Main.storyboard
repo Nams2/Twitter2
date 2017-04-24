@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="i9O-7W-PsO">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="dJw-zV-G6A">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -954,7 +954,7 @@
                 <tapGestureRecognizer numberOfTapsRequired="2" id="eVb-zJ-vkg">
                     <connections>
                         <action selector="imageClicked:" destination="dJw-zV-G6A" id="VzL-wz-Nlh"/>
-                        <segue destination="7E9-bM-Zxu" kind="push" identifier="userProfileSegue" id="irV-GW-Lr7"/>
+                        <segue destination="7E9-bM-Zxu" kind="modal" identifier="userProfileSegue" id="irV-GW-Lr7"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -1161,6 +1161,10 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Xx8-1X-Msa">
+                        <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="dJw-zV-G6A" kind="relationship" relationship="rootViewController" id="glN-Op-XWz"/>
                     </connections>
@@ -1189,6 +1193,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="CuH-9W-kRj"/>
+        <segue reference="irV-GW-Lr7"/>
     </inferredMetricsTieBreakers>
 </document>

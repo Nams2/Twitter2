@@ -20,27 +20,12 @@ class ProfileViewController: UIViewController {
     @IBOutlet weak var followingCountLabel: UILabel!
     @IBOutlet weak var followersCountLabel: UILabel!
     
-    //var user: User!
+    var user: User!
     
     var loadingMoreView:InfiniteScrollActivityView?
     var tweets: [Tweet] = []
     var isMoreDataLoading = false
     var currentOffset = 0
-    
-    
-    
-    var user: User! {
-        didSet {
-            userBackgroundImageView.setImageWith(user.profileBackgroundImageUrl!)
-            userImageView.setImageWith(user.profileUrl!)
-            userScreenname.text = user.screenname! as String
-            userName.text = "@" + (user.name! as String)
-            followersCountLabel.text = String(user.followerCount!)
-            followingCountLabel.text = String(user.followingCount!)
-            TweetCountLabel.text = String(user.tweetCount!)
-        }
-    }
- 
     
     var context = CIContext(options: nil)
 
@@ -52,6 +37,13 @@ class ProfileViewController: UIViewController {
             user = User.currentUser
         }
         getTweetsForUser(user: user)
+        userBackgroundImageView.setImageWith(user.profileBackgroundImageUrl!)
+        userImageView.setImageWith(user.profileUrl!)
+        userScreenname.text = user.screenname! as String
+        userName.text = "@" + (user.name! as String)
+        followersCountLabel.text = String(user.followerCount!)
+        followingCountLabel.text = String(user.followingCount!)
+        TweetCountLabel.text = String(user.tweetCount!)
         
         tableView.delegate = self
         tableView.dataSource = self
