@@ -26,7 +26,7 @@ Profile page
 
 Home Timeline
 
-* [] Tapping on a user image should bring up that user's profile page (Tried to implement but was not successful)
+* [+] Tapping on a user image should bring up that user's profile page (Needs work)
 
 Profile Page
 * [] Optional: Implement the paging view for the user description. (med)
