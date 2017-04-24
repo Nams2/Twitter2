@@ -296,11 +296,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Twitter/ProfileViewController.swift"
-            timestampString = "514708045.249768"
+            timestampString = "514709254.51082"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "123"
-            endingLineNumber = "123"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
             landmarkName = "tableView(_:numberOfRowsInSection:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -312,11 +312,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Twitter/ProfileViewController.swift"
-            timestampString = "514708045.249768"
+            timestampString = "514709254.51082"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "126"
-            endingLineNumber = "126"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -328,11 +328,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Twitter/ProfileViewController.swift"
-            timestampString = "514708045.249768"
+            timestampString = "514709254.51082"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "126"
-            endingLineNumber = "126"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -344,11 +344,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Twitter/ProfileViewController.swift"
-            timestampString = "514708045.249768"
+            timestampString = "514709254.51082"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "128"
-            endingLineNumber = "128"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -360,11 +360,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Twitter/ProfileViewController.swift"
-            timestampString = "514708045.249768"
+            timestampString = "514709254.51082"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
             landmarkName = "getTweetsForUser(user:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -376,11 +376,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Twitter/ProfileViewController.swift"
-            timestampString = "514708045.249768"
+            timestampString = "514709254.51082"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
             landmarkName = "ProfileViewController"
             landmarkType = "3">
             <Locations>

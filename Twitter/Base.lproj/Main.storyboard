@@ -817,7 +817,7 @@
             </objects>
             <point key="canvasLocation" x="2088.8000000000002" y="-2097.3013493253375"/>
         </scene>
-        <!--Home Timeline View Controller-->
+        <!--TimeLine-->
         <scene sceneID="hPu-lG-lrk">
             <objects>
                 <viewController storyboardIdentifier="HomeTimeLineViewController" id="dJw-zV-G6A" customClass="HomeTimelineViewController" customModule="Twitter" customModuleProvider="target" sceneMemberID="viewController">
@@ -945,7 +945,7 @@
                             </tableView>
                         </subviews>
                     </view>
-                    <navigationItem key="navigationItem" id="TOZ-jh-Wvk"/>
+                    <navigationItem key="navigationItem" title="TimeLine" id="TOZ-jh-Wvk"/>
                     <connections>
                         <outlet property="tableView" destination="595-oj-0hh" id="b08-Qu-ZQh"/>
                     </connections>
@@ -960,7 +960,7 @@
             </objects>
             <point key="canvasLocation" x="3784.8000000000002" y="-2097.3013493253375"/>
         </scene>
-        <!--Mention View Controller-->
+        <!--Mentions-->
         <scene sceneID="eSP-t8-RMn">
             <objects>
                 <viewController storyboardIdentifier="MentionsViewController" id="KGz-HX-p7S" customClass="MentionViewController" customModule="Twitter" customModuleProvider="target" sceneMemberID="viewController">
@@ -1087,9 +1087,8 @@
                                 </prototypes>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.70993643715021104" blue="0.97637892585256314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
-                    <navigationItem key="navigationItem" id="enp-fn-Ndp"/>
+                    <navigationItem key="navigationItem" title="Mentions" id="enp-fn-Ndp"/>
                     <connections>
                         <outlet property="tableView" destination="Xot-Y3-pf9" id="omr-Qg-PZb"/>
                     </connections>
@@ -1190,6 +1189,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="irV-GW-Lr7"/>
+        <segue reference="CuH-9W-kRj"/>
     </inferredMetricsTieBreakers>
 </document>

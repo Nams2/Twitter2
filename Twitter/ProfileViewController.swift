@@ -20,16 +20,15 @@ class ProfileViewController: UIViewController {
     @IBOutlet weak var followingCountLabel: UILabel!
     @IBOutlet weak var followersCountLabel: UILabel!
     
-    var user: User!
+    //var user: User!
     
     var loadingMoreView:InfiniteScrollActivityView?
     var tweets: [Tweet] = []
     var isMoreDataLoading = false
     var currentOffset = 0
-    //var user: User!
-    //var headerView: ProfileCell!
     
-    /*
+    
+    
     var user: User! {
         didSet {
             userBackgroundImageView.setImageWith(user.profileBackgroundImageUrl!)
@@ -41,7 +40,7 @@ class ProfileViewController: UIViewController {
             TweetCountLabel.text = String(user.tweetCount!)
         }
     }
- */
+ 
     
     var context = CIContext(options: nil)
 
